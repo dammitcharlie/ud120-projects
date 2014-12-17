@@ -39,7 +39,6 @@ t1=time()
 predicted_labels=classifier.predict(features_test)
 print "prediction:", round(time()-t1, 3), "s"
 
-t1=time()
 
 number_right = 0
 for i in range(len(predicted_labels)):
